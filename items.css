@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("pictures/istockphoto-1136756220-612x612.jpg" );
+    background-size: cover;
+}
+nav{
+    background: rgba(0, 0, 0,0.5);
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+}
+.Home:hover {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255, 255, 0, 0.146);
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fa-user{
+    margin-right: 550px;
+}
+.text-content {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-style: normal;
+}
+.rectangle {
+    width: 250px; 
+    height: 400px; 
+    background-color: #E6BA26;
+    border-radius: 15px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.triangle {
+        position: absolute;
+        border-right: 50px solid transparent;
+        border-left: 50px solid transparent;
+        border-bottom: 35px solid black;
+        transform: scale(2.0);
+        align-items: flex-end;
+        height: 45.8px;
+        right: 57%;
+        height: 45.8%;
+}
+.tatsulok{
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid black;
+    align-items: flex-end;
+    height: 45.8%;
+    margin-left: 125px;
+    margin-top: 162px;
+}
+.text{
+    font-size: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: -30px;
+   margin-left: 450px;
+   position: absolute;
+}
+.items{
+    margin-left: 20px;
+    margin-top: -12px;
+}
+.down{
+    font-size: 9.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: -30px;
+    margin-left: 360px;
+}
+.for{
+    margin-left: 18px;
+}

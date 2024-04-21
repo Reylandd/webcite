@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("pictures/black-yellow-background-vector-overlap-layer-dark-space-background-design_8829-2347.avif" );
+    background-size: cover;
+    
+}
+nav{
+    background: rgba(0, 0, 0,0.5);
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+}
+.Home:hover {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255, 255, 0, 0.146);
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fa-user{
+    margin-right: 550px;
+}
+.text-content {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-style: normal;
+  }
+  .rectangle{
+    width: 400px; 
+    height: 50px; 
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 630px;
+    margin-top: 130px;
+  }
+.rectangle1{
+    width: 400px; 
+    height: 50px; 
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 630px;
+    margin-top: 50px;
+}
+.rectangle2{
+    width: 400px; 
+    height: 50px; 
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 630px;
+    margin-top: 50px;
+}
+.rectangle3{
+    width: 400px; 
+    height: 50px; 
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 630px;
+    margin-top: 50px;
+}
+.text{
+    color: black;
+    margin-left: 730px;
+    margin-top: -340px;
+    font-size: 30px;
+}
+.text1{
+    color: black;
+    margin-left: 690px;
+    margin-top: 65px;
+    font-size: 25px;
+}
+.text2{
+    color: black;
+    margin-left: 740px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.text3{
+    color: black;
+    margin-left: 730px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.email{
+    font-size: 30px;
+    margin-top: -335px;
+    margin-left: 660px;
+}
+.facebook{
+   font-size: 30px;
+   margin-left: 660px;
+   margin-top: 65px;
+}
+.instagram{
+    font-size: 30px;
+    margin-left: 655px;
+    margin-top: 65px;
+}
+.call{
+    font-size: 30px;
+    margin-left: 655px;
+    margin-top: 65px;
+}
+.rectangle4{
+    width: 200px; 
+    height: 40px; 
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: -470px;
+    border: 2px solid rgba(0, 0, 0, 0.71);
+}
+.rectangle5{
+    width: 200px; 
+    height: 40px; 
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: 0px;
+    border: 2px solid rgba(0, 0, 0, 0.71);
+}
+.rectangle6{
+    width: 200px; 
+    height: 40px; 
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: -0px;
+    border: 2px solid rgba(0, 0, 0, 0.71);
+}
+.text4{
+    margin-top: -75px;
+    margin-left: 1000px;
+    font-size: 27px;
+    white-space: nowrap;
+}
+.text5{
+        margin-top: 10px;
+        margin-left: 1015px;
+        font-size: 27px;
+        white-space: nowrap;
+}

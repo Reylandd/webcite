@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("pictures/istockphoto-1136756220-612x612.jpg" );
+    background-size: cover;
+}
+nav{
+    background: rgba(0, 0, 0,0.5);
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+}
+.Home:hover {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255, 255, 0, 0.146);
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fa-user{
+    margin-right: 550px;
+}
+.text-content {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-style: normal;
+}
+.rectangle{
+    width: 250px; 
+    height: 400px; 
+    background-color: #E6BA26;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.triangle {
+    position:absolute;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 35px solid black;
+    transform: scale(2.0);
+    height: 45.8px;
+    left: 140px;
+    height: 45.8%;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.triangle1{
+    position: fixed;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 35px solid black;
+    transform: scale(2.0);
+    height: 45.8px;
+    left: 460px;
+    height: 45.8%;
+}
+.triangle2{
+    position: absolute;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 35px solid black;
+    transform: scale(2.0);
+    height: 45.8px;
+    left: 780px;
+    height: 45.8%;
+}
+.triangle3{
+    position: fixed;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 35px solid black;
+    transform: scale(2.0);
+    height: 45.8px;
+    left: 1100px;
+    height: 45.8%;
+}
+.image1{
+    margin-top: 90px;
+    width: 150px;
+    margin-left: -85px;
+    position: fixed;
+}
+.image2{
+    position: fixed;
+    width: 140px;
+    margin-left: -85px;
+    margin-top: 90px;
+}
+.image3{
+    position: fixed;
+    width: 140px;
+    margin-left: -75px;
+    margin-top: 90px;
+}
+.image4{
+    position: fixed;
+    width: 140px;
+    margin-left: -80px;
+    margin-top: 100px;
+}
+.text1{
+    position: fixed;
+    font-family: monospace;
+    color: white;
+    font-size: 8px;
+    top: 240px;
+    right: -12px;
+}
+.text11{
+    position: fixed;
+    font-family: monospace;
+    color: white;
+    font-size: 8px;
+    top: 257px;
+    right: -16px;
+}
+.text2{
+    position: fixed;
+    font-family: monospace;
+    color: white;
+    font-size: 9px;
+    top: 243px;
+    right: -10px;
+}
+.text3{
+    position: fixed;
+    font-family: monospace;
+    color: white;
+    font-size: 9px;
+    top: 245px;
+    right: -18px;
+}
+.text12{
+    position: fixed;
+    font-family: monospace;
+    color: white;
+    font-size: 9px;
+    top: 255px;
+    right: -9px;   
+}
+.text4{
+    position: fixed;
+    font-family: monospace;
+    color: white;
+    font-size: 9px;
+    top: 250px;
+    right: -22px;   
+}

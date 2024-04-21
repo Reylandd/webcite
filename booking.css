@@ -1,0 +1,217 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("pictures/360_F_440511401_K7MMFoljlEuuQQrtmvKpxT64eKMYFw0P.jpg" );
+    background-size: cover;
+    
+}
+nav{
+    background: rgba(0, 0, 0,0.5);
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+}
+.Home:hover {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255, 255, 0, 0.146);
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fa-user{
+    margin-right: 550px;
+}
+.text-content {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-style: normal;
+  }
+  .rectangle{
+    width: 500px; 
+    height: 400px; 
+    background-color: rgba(255, 255, 255, 0.447);
+    border-radius: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .rectangle1{
+    width: 400px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.406);
+    border-radius: 60px;
+    margin-top: -380px;
+    margin-left: 150px;
+  }
+  .my-input-class{
+    width: 250px;
+    height: 50px;
+    border-radius: 60px;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 15px;
+  }
+  .p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+     margin-top: -138px;
+     margin-left:185px;
+     font-size: 25px;
+  }
+  .Gender{
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-top: -40px; 
+    margin-left: 150px;
+    font-size: 25px;
+  }
+  .name{
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-top: -225px; 
+    margin-left: 155px;
+    font-size: 25px;
+  }
+  .Contact{
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-top: 55px; 
+    margin-left: 155px;
+    font-size: 25px;
+  }
+.Contact-Number{
+    border-radius: 60px;
+    margin-top: 130px;
+    margin-left: -330px;
+}
+.p1{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -200px;
+  margin-left: 750px;
+  font-size: 50px;
+  color: yellow;
+  font-style: italic;
+}
+.p2{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -70px;
+  margin-left: 890px;
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+}
+.p3{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -10px;
+  margin-left: 650px;
+  font-size: 50px;
+  color: yellow;
+  font-style: italic;
+}
+.p4{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -70px;
+  margin-left: 750px;
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+}
+.p5{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -70px;
+  margin-left: 1020px;
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+}
+.p6{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -10px;
+  margin-left: 650px;
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+}
+.p7{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -70px;
+  margin-left: 740px;
+  font-size: 50px;
+  color: yellow;
+  font-style: italic;
+}
+.p8{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-top: -70px;
+  margin-left: 1010px;
+  font-size: 50px;
+  color: yellow;
+  font-style: italic;
+}
+.back-button button{
+  width: 50px;
+  height: 50px;
+ margin-top: 100px;
+ margin-left: 1170px;
+ background-size: 100px;
+ border-radius: 10px;
+ background-color: gray;
+ color: yellow;
+ position: fixed;
+} 
+.back-button button i{
+  font-size: 35px;
+}
+
+
+

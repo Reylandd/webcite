@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("pictures/360_F_440511401_K7MMFoljlEuuQQrtmvKpxT64eKMYFw0P.jpg" );
+    background-size: cover;
+    background-color: #f8f9fa6a;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgba(0, 0, 0,0.5);
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+}
+.Home:hover {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255, 255, 0, 0.146);
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fa-user{
+    margin-right: 550px;
+}
+.text-content {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-style: normal;
+  }
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+    margin-left: 50px;
+    color: #FFB526;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#calendar {
+    margin-bottom: 30px;
+}
+label {
+    font-weight: bold;
+}
+input[type="date"], input[type="time"], .btn-primary {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    color: #FFB526;
+}
+.row {
+    margin-bottom: 20px;
+}
