@@ -84,14 +84,13 @@ nav ul li {
   }
   .button1 input{
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 200px;
     height: 20px;
     width: 20px;
-    
 }
 .button1 .label1{
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 180px;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal; 
@@ -127,6 +126,34 @@ nav ul li {
 .button1 .label5{
     margin-top: 300px;
     margin-left: 200px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.button1 .label6{
+    margin-top: 20px;
+    margin-left: 700px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.button1 .label7{
+    margin-top: 90px;
+    margin-left: 700px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.button1 .label8{
+    margin-top: 160px;
+    margin-left: 700px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.button1 .label9{
+    margin-top: 230px;
+    margin-left: 700px;
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal; 
