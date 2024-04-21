@@ -1,6 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body{
+    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
     background-image: url(pictures/dumbbells-sport-fitness-healthy-lifestyle_645697-3868.jpg);
@@ -44,14 +47,15 @@ body{
 }
 
 .login-container form button{
-    width: 258px;
+    width: 100px;
     margin-top: 10px;
     height: 30px;
     border-radius: 20px;
+    margin-left: 80px;
 }
 
 .login-container .forgot-password{
-    margin-left: 170px;
+    margin-left: 145px;
     margin-top: 5px;
     font-size: 12px;
 }
@@ -59,8 +63,71 @@ body{
 .login-container .register-container{
     margin-left: 30px;
     margin-top: 20px;
+    font-size: smaller;
 }
 
 .login-container form input::placeholder{
+    padding: 10px;
+}
+
+
+/* SIGN UP CSS */
+
+
+.signup-container{
+    background-color: aqua;
+    width: 300px;
+    padding: 20px 20px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: 60%;
+}
+
+.signup-container h1{
+    text-align: center;
+}
+
+
+.signup-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.signup-container form input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.signup-container form label{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.signup-container form button{
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.signup-container .forgot-password{
+    margin-left: 145px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.signup-container .register-container{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: smaller;
+}
+
+.signup-container form input::placeholder{
     padding: 10px;
 }

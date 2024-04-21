@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="login-container">
-        <h1>Sign In</h1>
+    <div class="signup-container">
+        <h1>Sign Up</h1>
         <form action="index.php" method="post" id="login">
+            <label for="f_name">First Name</label>
+            <input type="email" name="f_name" placeholder="Enter First Name"> 
+            <label for="l_name">Last Name</label>
+            <input type="email" name="l_name" placeholder="Enter Last Name"> 
             <label for="email_address">Email Address</label>
             <input type="email" name="email_address" placeholder="Enter Email Address">
             <label for="pass_word">Password</label>
             <input type="password" name="pass_word" placeholder="Enter Password">
             <a href="#" class="forgot-password">Forgot Password?</a>
-            <button type="submit" onclick="signIn()" id="show-login" name="login">Sign In</button>
+            <button type="submit" onclick="signup()" id="show-login" name="login">Sign Up</button>
 
-            
             <div class="register-container">
-                Don't have an account? <a href="">Register</a>
+                Have an account? <a href="">Sign In</a>
             </div>
 
         </form>
