@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("pictures/41.ea93a59f714f0ad293beef85bc490b1f.jpg" );
+    background-size: cover;
+    
+}
+nav{
+    background: rgba(0, 0, 0,0.5);
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+}
+.Home:hover {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255, 255, 0, 0.146);
+    height: 30px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fa-user{
+    margin-right: 550px;
+}
+.text-content {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-style: normal;
+  }
+
+.rectangle{
+  width: 900px; 
+  height: 370px; 
+  background-color: rgba(0, 0, 0, 0.744);
+  border-radius: 40px;
+  margin-left: 190px;
+  margin-top: 110px;
+  border: 2px solid  rgba(255, 255, 0, 0.55);
+}
+.text{
+    position: fixed;
+    font-family: inherit;
+    color: white;
+    font-size: 16px;
+    top: 275px;
+    left: 205px;
+}
+.text1{
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+    font-size: 40px;
+    top: 135px;
+    left: 250px;
+}
+.back-button button{
+    width: 50px;
+    height: 50px;
+   margin-top: -70px;
+   margin-left: 1170px;
+   background-size: 100px;
+   border-radius: 10px;
+   background-color: gray;
+   color: yellow;
+   position: fixed;
+} 
+.back-button button i{
+    font-size: 35px;
+}

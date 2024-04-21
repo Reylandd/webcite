@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(pictures/dumbbells-sport-fitness-healthy-lifestyle_645697-3868.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-container{
+    background-color: aqua;
+    width: 300px;
+    padding: 20px 20px;
+    height: 400px;
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: 60%;
+}
+
+.login-container h1{
+    text-align: center;
+}
+
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.login-container form input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.login-container form label{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.login-container form button{
+    width: 258px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.login-container .forgot-password{
+    margin-left: 170px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.login-container .register-container{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.login-container form input::placeholder{
+    padding: 10px;
+}

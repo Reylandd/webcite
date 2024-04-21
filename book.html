@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Schedule</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa6a;
+        margin: 0;
+        padding: 0;
+    }
+    .rectangle {
+        width: 500px; 
+        height: 400px; 
+        background-color: rgb(255, 255, 255);
+        border-radius: 40px;
+        margin-left: 100px;
+        margin-top: 300px;
+    }
+    .rectangle1 {
+        width: 400px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.406);
+        border-radius: 60px;
+        margin-top: -380px;
+        margin-left: 150px;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: rgba(255, 255, 255, 0.411);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #calendar {
+        margin-bottom: 30px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="date"], input[type="time"], .btn-primary {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #cccccc7b;
+    }
+    .row {
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="rectangle">
+    <div class="rectangle1"></div>
+    <div class="container">
+        <h2>Booking Schedule</h2>
+        <div id="calendar"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date">
+            </div>
+            <div class="col-md-6">
+                <label for="time">Select Time:</label>
+                <input type="time" id="time">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button id="bookBtn" class="btn btn-primary">Book</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            selectable: true,
+            select: function(info) {
+                document.getElementById('date').value = info.startStr.substring(0, 10);
+            }
+        });
+        calendar.render();
+    });
+
+    $('#bookBtn').on('click', function() {
+        var date = $('#date').val();
+        var time = $('#time').val();
+        if (date && time) {
+            alert('Booking confirmed for ' + date + ' at ' + time);
+            // Here you can further process the booking, such as sending it to a backend server
+        } else {
+            alert('Please select both date and time.');
+        }
+    });
+</script>
+
+</body>
+</html>
