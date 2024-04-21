@@ -89,3 +89,7 @@ input[type="date"], input[type="time"], .btn-primary {
 .row {
     margin-bottom: 20px;
 }
+div .btn-primary{
+     color: black;
+     background-color: #FFB526;
+}

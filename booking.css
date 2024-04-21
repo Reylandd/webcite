@@ -45,8 +45,11 @@ nav ul li{
 }
 nav ul li {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
+}
+nav ul li{
+  margin-right: 10px;
 }
 .fa-user{
     margin-right: 550px;
