@@ -10,6 +10,7 @@ body{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
 
 .login-container{
@@ -123,23 +124,23 @@ body{
 
 
 .signup-container form{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 25px;
+
 }
 
 .signup-container form input{
     width: 250px;
     height: 30px;
     border-radius: 20px;
-    
+    margin-top: 8px;
+    border: 2px solid #32cd32;
 }
 
 .signup-container form label{
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     color: white;
 }
 
