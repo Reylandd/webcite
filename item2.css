@@ -7,8 +7,9 @@
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: url("pictures/istockphoto-1136756220-612x612.jpg" );
+    background: url("pictures/41.ea93a59f714f0ad293beef85bc490b1f.jpg" );
     background-size: cover;
+    
 }
 nav{
     background: rgba(0, 0, 0,0.5);
@@ -23,16 +24,6 @@ label{
     font-weight: bold;
     position: absolute;
 }
-.Home:hover {
-    position: relative;
-    bottom: 0;
-    background-color: rgba(255, 255, 0, 0.146);
-    height: 30px;
-    width: 55px;
-    border-radius: 5px;
-}
-
-
 nav ul{
     float: right;
     margin-right: 20px;
@@ -41,13 +32,9 @@ nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-}
-nav ul li {
     color: white;
     font-size: 17px;
     text-transform: uppercase;
-}
-nav ul li{
     margin-right: 10px;
 }
 .fa-user{
@@ -57,7 +44,7 @@ nav ul li{
     margin-top: 120px;
     margin-left: 250px;
     font-style: normal;
-}
+  }
 .rectangle{
     width:190px; 
     height: 380px; 

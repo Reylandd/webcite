@@ -7,11 +7,9 @@
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: url("pictures/360_F_440511401_K7MMFoljlEuuQQrtmvKpxT64eKMYFw0P.jpg" );
+    background: url("pictures/41.ea93a59f714f0ad293beef85bc490b1f.jpg" );
     background-size: cover;
-    background-color: #f8f9fa6a;
-    margin: 0;
-    padding: 0;
+    
 }
 nav{
     background: rgba(0, 0, 0,0.5);
@@ -26,16 +24,6 @@ label{
     font-weight: bold;
     position: absolute;
 }
-.Home:hover {
-    position: relative;
-    bottom: 0;
-    background-color: rgba(255, 255, 0, 0.146);
-    height: 30px;
-    width: 55px;
-    border-radius: 5px;
-}
-
-
 nav ul{
     float: right;
     margin-right: 20px;
@@ -44,11 +32,10 @@ nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-}
-nav ul li {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
+    margin-right: 10px;
 }
 .fa-user{
     margin-right: 550px;
@@ -59,7 +46,7 @@ nav ul li {
     font-style: normal;
   }
 .container {
-    max-width: 600px;
+    max-width: 600;
     margin: 60px auto;
     background-color: rgba(255, 255, 255, 0.411);
     padding: 60px;
@@ -67,6 +54,8 @@ nav ul li {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
     margin-left: 50px;
     color: #FFB526;
+    width: 500px;
+
 }
 h2 {
     text-align: center;
@@ -75,9 +64,8 @@ h2 {
 #calendar {
     margin-bottom: 30px;
 }
-label {
-    font-weight: bold;
-}
+
+
 input[type="date"], input[type="time"], .btn-primary {
     width: 100%;
     padding: 10px;
@@ -87,9 +75,12 @@ input[type="date"], input[type="time"], .btn-primary {
     color: #FFB526;
 }
 .row {
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
-div .btn-primary{
+button{
      color: black;
      background-color: #FFB526;
+     width: 100%;
+     height: 40px;
+     border-radius: 5px;
 }
